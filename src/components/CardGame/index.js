@@ -3,7 +3,7 @@ import "./style.css";
 function CardGame() {
   return `
     <article class="card-game">
-      <img src="images/creper-pixel.png" alt="Creper em pixel">     
+      <img src="images/bau-pixel.png" alt="bau em pixel">     
     </article>
   `;
 }
