@@ -4,7 +4,7 @@ function CardFrontBack(){
     return `
         <article class="card-front-back">
         ${CardGame()}
-        ${CardGame()}
+        ${CardGame("creper", "creper")}
         </article>
     `
 }
