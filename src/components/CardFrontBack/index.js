@@ -3,7 +3,7 @@ import "./style.css";
 
 
 
-function CardFrontBack() {
+function CardFrontBack(icon, altIcon) {
     window.CardFrontBack = {}
     window.CardFrontBack.handleClick = (event) => {
       const $origin = event.target;
@@ -12,13 +12,13 @@ function CardFrontBack() {
       $CardFrontBack.classList.toggle('-active');
     }
 
-    return `
+    return /*html */`
         <article class="card-front-back" onClick="CardFrontBack.handleClick(event)">
             <div class="card -front">  
                 ${CardGame()}
             </div>
             <div class"card -back">
-                ${CardGame("creper", "creper")}
+                ${CardGame(icon, altIcon)}
             </div>
         </article>
     `;
